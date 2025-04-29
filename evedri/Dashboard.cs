@@ -21,7 +21,21 @@ namespace evedri
             //Status
             lblActive.Text = ShowCount(12,"Active").ToString();
             lblInactive.Text = ShowCount(12, "Inactive").ToString();
-            //
+            //Gender
+            lblMaleCount.Text = ShowCount(2, "Male").ToString();
+            lblFemaleCount.Text = ShowCount(2, "Female").ToString();
+            //Color
+            lblBlueCount.Text = ShowCount(4, "blue").ToString();
+            lblRedCount.Text = ShowCount(4, "red").ToString();
+            lblPinkCount.Text = ShowCount(4, "pink").ToString();
+            //Hobbies
+            lblBasketball.Text = ShowCount(3, "Basketball").ToString();
+            lblVolleyball.Text = ShowCount(3, "VolleyBall").ToString();
+            //Course
+            lblBsit.Text = ShowCount(13, "IT").ToString();
+            lblBeed.Text = ShowCount(13, "BEED").ToString();
+
+
 
         }
 
@@ -49,6 +63,11 @@ namespace evedri
         }
 
         private void lblInactive_Click(object sender, EventArgs e)
+        {
+
+        }
+
+        private void label5_Click(object sender, EventArgs e)
         {
 
         }

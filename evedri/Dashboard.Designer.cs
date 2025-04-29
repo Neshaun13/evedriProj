@@ -42,17 +42,27 @@
             this.groupBox1 = new System.Windows.Forms.GroupBox();
             this.groupBox2 = new System.Windows.Forms.GroupBox();
             this.groupBox3 = new System.Windows.Forms.GroupBox();
-            this.label3 = new System.Windows.Forms.Label();
+            this.lblFemaleCount = new System.Windows.Forms.Label();
+            this.lblMaleCount = new System.Windows.Forms.Label();
+            this.lblFemale = new System.Windows.Forms.Label();
+            this.lblMale = new System.Windows.Forms.Label();
             this.groupBox4 = new System.Windows.Forms.GroupBox();
-            this.label4 = new System.Windows.Forms.Label();
+            this.lblBasketball = new System.Windows.Forms.Label();
             this.groupBox5 = new System.Windows.Forms.GroupBox();
-            this.label5 = new System.Windows.Forms.Label();
+            this.lblBlue = new System.Windows.Forms.Label();
+            this.lblBlueCount = new System.Windows.Forms.Label();
             this.groupBox6 = new System.Windows.Forms.GroupBox();
+            this.lblRed = new System.Windows.Forms.Label();
+            this.lblPink = new System.Windows.Forms.Label();
+            this.lblRedCount = new System.Windows.Forms.Label();
+            this.lblPinkCount = new System.Windows.Forms.Label();
+            this.label3 = new System.Windows.Forms.Label();
+            this.label4 = new System.Windows.Forms.Label();
+            this.lblVolleyball = new System.Windows.Forms.Label();
+            this.label5 = new System.Windows.Forms.Label();
             this.label6 = new System.Windows.Forms.Label();
-            this.label7 = new System.Windows.Forms.Label();
-            this.label8 = new System.Windows.Forms.Label();
-            this.label9 = new System.Windows.Forms.Label();
-            this.label10 = new System.Windows.Forms.Label();
+            this.lblBsit = new System.Windows.Forms.Label();
+            this.lblBeed = new System.Windows.Forms.Label();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox1)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox2)).BeginInit();
             this.groupBox1.SuspendLayout();
@@ -154,10 +164,10 @@
             // lblInactive
             // 
             this.lblInactive.AutoSize = true;
-            this.lblInactive.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.lblInactive.Location = new System.Drawing.Point(27, 41);
+            this.lblInactive.Font = new System.Drawing.Font("Microsoft Sans Serif", 15.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.lblInactive.Location = new System.Drawing.Point(81, 41);
             this.lblInactive.Name = "lblInactive";
-            this.lblInactive.Size = new System.Drawing.Size(19, 20);
+            this.lblInactive.Size = new System.Drawing.Size(25, 25);
             this.lblInactive.TabIndex = 2;
             this.lblInactive.Text = "0";
             this.lblInactive.Click += new System.EventHandler(this.lblInactive_Click);
@@ -165,10 +175,10 @@
             // lblActive
             // 
             this.lblActive.AutoSize = true;
-            this.lblActive.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.lblActive.Location = new System.Drawing.Point(24, 41);
+            this.lblActive.Font = new System.Drawing.Font("Microsoft Sans Serif", 15.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.lblActive.Location = new System.Drawing.Point(81, 41);
             this.lblActive.Name = "lblActive";
-            this.lblActive.Size = new System.Drawing.Size(19, 20);
+            this.lblActive.Size = new System.Drawing.Size(25, 25);
             this.lblActive.TabIndex = 1;
             this.lblActive.Text = "0";
             // 
@@ -196,10 +206,10 @@
             // 
             // groupBox3
             // 
-            this.groupBox3.Controls.Add(this.label9);
-            this.groupBox3.Controls.Add(this.label8);
-            this.groupBox3.Controls.Add(this.label7);
-            this.groupBox3.Controls.Add(this.label3);
+            this.groupBox3.Controls.Add(this.lblFemaleCount);
+            this.groupBox3.Controls.Add(this.lblMaleCount);
+            this.groupBox3.Controls.Add(this.lblFemale);
+            this.groupBox3.Controls.Add(this.lblMale);
             this.groupBox3.Font = new System.Drawing.Font("Microsoft Sans Serif", 8.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.groupBox3.Location = new System.Drawing.Point(309, 223);
             this.groupBox3.Name = "groupBox3";
@@ -208,19 +218,52 @@
             this.groupBox3.TabStop = false;
             this.groupBox3.Text = "Gender";
             // 
-            // label3
+            // lblFemaleCount
             // 
-            this.label3.AutoSize = true;
-            this.label3.Font = new System.Drawing.Font("Microsoft Sans Serif", 8.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label3.Location = new System.Drawing.Point(25, 41);
-            this.label3.Name = "label3";
-            this.label3.Size = new System.Drawing.Size(38, 13);
-            this.label3.TabIndex = 1;
-            this.label3.Text = "Male:";
+            this.lblFemaleCount.AutoSize = true;
+            this.lblFemaleCount.Font = new System.Drawing.Font("Microsoft Sans Serif", 9.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.lblFemaleCount.Location = new System.Drawing.Point(101, 62);
+            this.lblFemaleCount.Name = "lblFemaleCount";
+            this.lblFemaleCount.Size = new System.Drawing.Size(15, 16);
+            this.lblFemaleCount.TabIndex = 3;
+            this.lblFemaleCount.Text = "0";
+            // 
+            // lblMaleCount
+            // 
+            this.lblMaleCount.AutoSize = true;
+            this.lblMaleCount.Font = new System.Drawing.Font("Microsoft Sans Serif", 9.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.lblMaleCount.Location = new System.Drawing.Point(101, 39);
+            this.lblMaleCount.Name = "lblMaleCount";
+            this.lblMaleCount.Size = new System.Drawing.Size(15, 16);
+            this.lblMaleCount.TabIndex = 2;
+            this.lblMaleCount.Text = "0";
+            // 
+            // lblFemale
+            // 
+            this.lblFemale.AutoSize = true;
+            this.lblFemale.Font = new System.Drawing.Font("Microsoft Sans Serif", 8.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.lblFemale.Location = new System.Drawing.Point(25, 64);
+            this.lblFemale.Name = "lblFemale";
+            this.lblFemale.Size = new System.Drawing.Size(51, 13);
+            this.lblFemale.TabIndex = 2;
+            this.lblFemale.Text = "Female:";
+            // 
+            // lblMale
+            // 
+            this.lblMale.AutoSize = true;
+            this.lblMale.Font = new System.Drawing.Font("Microsoft Sans Serif", 8.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.lblMale.Location = new System.Drawing.Point(25, 41);
+            this.lblMale.Name = "lblMale";
+            this.lblMale.Size = new System.Drawing.Size(38, 13);
+            this.lblMale.TabIndex = 1;
+            this.lblMale.Text = "Male:";
             // 
             // groupBox4
             // 
+            this.groupBox4.Controls.Add(this.lblVolleyball);
             this.groupBox4.Controls.Add(this.label4);
+            this.groupBox4.Controls.Add(this.label3);
+            this.groupBox4.Controls.Add(this.lblBasketball);
             this.groupBox4.Font = new System.Drawing.Font("Microsoft Sans Serif", 8.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.groupBox4.Location = new System.Drawing.Point(309, 369);
             this.groupBox4.Name = "groupBox4";
@@ -229,20 +272,24 @@
             this.groupBox4.TabStop = false;
             this.groupBox4.Text = "Hobbies";
             // 
-            // label4
+            // lblBasketball
             // 
-            this.label4.AutoSize = true;
-            this.label4.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label4.Location = new System.Drawing.Point(24, 41);
-            this.label4.Name = "label4";
-            this.label4.Size = new System.Drawing.Size(19, 20);
-            this.label4.TabIndex = 1;
-            this.label4.Text = "0";
+            this.lblBasketball.AutoSize = true;
+            this.lblBasketball.Font = new System.Drawing.Font("Microsoft Sans Serif", 9.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.lblBasketball.Location = new System.Drawing.Point(120, 35);
+            this.lblBasketball.Name = "lblBasketball";
+            this.lblBasketball.Size = new System.Drawing.Size(15, 16);
+            this.lblBasketball.TabIndex = 1;
+            this.lblBasketball.Text = "0";
             // 
             // groupBox5
             // 
-            this.groupBox5.Controls.Add(this.label10);
-            this.groupBox5.Controls.Add(this.label5);
+            this.groupBox5.Controls.Add(this.lblPinkCount);
+            this.groupBox5.Controls.Add(this.lblRedCount);
+            this.groupBox5.Controls.Add(this.lblPink);
+            this.groupBox5.Controls.Add(this.lblRed);
+            this.groupBox5.Controls.Add(this.lblBlue);
+            this.groupBox5.Controls.Add(this.lblBlueCount);
             this.groupBox5.Font = new System.Drawing.Font("Microsoft Sans Serif", 8.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.groupBox5.Location = new System.Drawing.Point(557, 223);
             this.groupBox5.Name = "groupBox5";
@@ -251,19 +298,33 @@
             this.groupBox5.TabStop = false;
             this.groupBox5.Text = " Color";
             // 
-            // label5
+            // lblBlue
             // 
-            this.label5.AutoSize = true;
-            this.label5.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label5.Location = new System.Drawing.Point(70, 29);
-            this.label5.Name = "label5";
-            this.label5.Size = new System.Drawing.Size(19, 20);
-            this.label5.TabIndex = 1;
-            this.label5.Text = "0";
+            this.lblBlue.AutoSize = true;
+            this.lblBlue.Font = new System.Drawing.Font("Microsoft Sans Serif", 8.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.lblBlue.Location = new System.Drawing.Point(39, 31);
+            this.lblBlue.Name = "lblBlue";
+            this.lblBlue.Size = new System.Drawing.Size(36, 13);
+            this.lblBlue.TabIndex = 2;
+            this.lblBlue.Text = "Blue:";
+            // 
+            // lblBlueCount
+            // 
+            this.lblBlueCount.AutoSize = true;
+            this.lblBlueCount.Font = new System.Drawing.Font("Microsoft Sans Serif", 9.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.lblBlueCount.Location = new System.Drawing.Point(113, 29);
+            this.lblBlueCount.Name = "lblBlueCount";
+            this.lblBlueCount.Size = new System.Drawing.Size(15, 16);
+            this.lblBlueCount.TabIndex = 1;
+            this.lblBlueCount.Text = "0";
+            this.lblBlueCount.Click += new System.EventHandler(this.label5_Click);
             // 
             // groupBox6
             // 
+            this.groupBox6.Controls.Add(this.lblBeed);
             this.groupBox6.Controls.Add(this.label6);
+            this.groupBox6.Controls.Add(this.label5);
+            this.groupBox6.Controls.Add(this.lblBsit);
             this.groupBox6.Font = new System.Drawing.Font("Microsoft Sans Serif", 8.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.groupBox6.Location = new System.Drawing.Point(557, 369);
             this.groupBox6.Name = "groupBox6";
@@ -272,55 +333,115 @@
             this.groupBox6.TabStop = false;
             this.groupBox6.Text = "Course";
             // 
+            // lblRed
+            // 
+            this.lblRed.AutoSize = true;
+            this.lblRed.Font = new System.Drawing.Font("Microsoft Sans Serif", 8.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.lblRed.Location = new System.Drawing.Point(39, 51);
+            this.lblRed.Name = "lblRed";
+            this.lblRed.Size = new System.Drawing.Size(34, 13);
+            this.lblRed.TabIndex = 3;
+            this.lblRed.Text = "Red:";
+            // 
+            // lblPink
+            // 
+            this.lblPink.AutoSize = true;
+            this.lblPink.Font = new System.Drawing.Font("Microsoft Sans Serif", 8.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.lblPink.Location = new System.Drawing.Point(39, 73);
+            this.lblPink.Name = "lblPink";
+            this.lblPink.Size = new System.Drawing.Size(36, 13);
+            this.lblPink.TabIndex = 4;
+            this.lblPink.Text = "Pink:";
+            // 
+            // lblRedCount
+            // 
+            this.lblRedCount.AutoSize = true;
+            this.lblRedCount.Font = new System.Drawing.Font("Microsoft Sans Serif", 9.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.lblRedCount.Location = new System.Drawing.Point(113, 49);
+            this.lblRedCount.Name = "lblRedCount";
+            this.lblRedCount.Size = new System.Drawing.Size(15, 16);
+            this.lblRedCount.TabIndex = 5;
+            this.lblRedCount.Text = "0";
+            // 
+            // lblPinkCount
+            // 
+            this.lblPinkCount.AutoSize = true;
+            this.lblPinkCount.Font = new System.Drawing.Font("Microsoft Sans Serif", 9.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.lblPinkCount.Location = new System.Drawing.Point(113, 71);
+            this.lblPinkCount.Name = "lblPinkCount";
+            this.lblPinkCount.Size = new System.Drawing.Size(15, 16);
+            this.lblPinkCount.TabIndex = 6;
+            this.lblPinkCount.Text = "0";
+            // 
+            // label3
+            // 
+            this.label3.AutoSize = true;
+            this.label3.Font = new System.Drawing.Font("Microsoft Sans Serif", 8.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.label3.Location = new System.Drawing.Point(20, 37);
+            this.label3.Name = "label3";
+            this.label3.Size = new System.Drawing.Size(70, 13);
+            this.label3.TabIndex = 3;
+            this.label3.Text = "Basketball:";
+            // 
+            // label4
+            // 
+            this.label4.AutoSize = true;
+            this.label4.Font = new System.Drawing.Font("Microsoft Sans Serif", 8.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.label4.Location = new System.Drawing.Point(20, 62);
+            this.label4.Name = "label4";
+            this.label4.Size = new System.Drawing.Size(65, 13);
+            this.label4.TabIndex = 4;
+            this.label4.Text = "Volleyball:";
+            // 
+            // lblVolleyball
+            // 
+            this.lblVolleyball.AutoSize = true;
+            this.lblVolleyball.Font = new System.Drawing.Font("Microsoft Sans Serif", 9.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.lblVolleyball.Location = new System.Drawing.Point(120, 60);
+            this.lblVolleyball.Name = "lblVolleyball";
+            this.lblVolleyball.Size = new System.Drawing.Size(15, 16);
+            this.lblVolleyball.TabIndex = 5;
+            this.lblVolleyball.Text = "0";
+            // 
+            // label5
+            // 
+            this.label5.AutoSize = true;
+            this.label5.Font = new System.Drawing.Font("Microsoft Sans Serif", 8.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.label5.Location = new System.Drawing.Point(39, 41);
+            this.label5.Name = "label5";
+            this.label5.Size = new System.Drawing.Size(39, 13);
+            this.label5.TabIndex = 4;
+            this.label5.Text = "BSIT:";
+            // 
             // label6
             // 
             this.label6.AutoSize = true;
-            this.label6.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label6.Location = new System.Drawing.Point(24, 41);
+            this.label6.Font = new System.Drawing.Font("Microsoft Sans Serif", 8.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.label6.Location = new System.Drawing.Point(39, 62);
             this.label6.Name = "label6";
-            this.label6.Size = new System.Drawing.Size(19, 20);
-            this.label6.TabIndex = 1;
-            this.label6.Text = "0";
+            this.label6.Size = new System.Drawing.Size(44, 13);
+            this.label6.TabIndex = 5;
+            this.label6.Text = "BEED:";
             // 
-            // label7
+            // lblBsit
             // 
-            this.label7.AutoSize = true;
-            this.label7.Font = new System.Drawing.Font("Microsoft Sans Serif", 8.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label7.Location = new System.Drawing.Point(25, 64);
-            this.label7.Name = "label7";
-            this.label7.Size = new System.Drawing.Size(51, 13);
-            this.label7.TabIndex = 2;
-            this.label7.Text = "Female:";
+            this.lblBsit.AutoSize = true;
+            this.lblBsit.Font = new System.Drawing.Font("Microsoft Sans Serif", 9.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.lblBsit.Location = new System.Drawing.Point(113, 39);
+            this.lblBsit.Name = "lblBsit";
+            this.lblBsit.Size = new System.Drawing.Size(15, 16);
+            this.lblBsit.TabIndex = 1;
+            this.lblBsit.Text = "0";
             // 
-            // label8
+            // lblBeed
             // 
-            this.label8.AutoSize = true;
-            this.label8.Font = new System.Drawing.Font("Microsoft Sans Serif", 9F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label8.Location = new System.Drawing.Point(83, 39);
-            this.label8.Name = "label8";
-            this.label8.Size = new System.Drawing.Size(15, 15);
-            this.label8.TabIndex = 2;
-            this.label8.Text = "0";
-            // 
-            // label9
-            // 
-            this.label9.AutoSize = true;
-            this.label9.Font = new System.Drawing.Font("Microsoft Sans Serif", 9F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label9.Location = new System.Drawing.Point(83, 62);
-            this.label9.Name = "label9";
-            this.label9.Size = new System.Drawing.Size(15, 15);
-            this.label9.TabIndex = 3;
-            this.label9.Text = "0";
-            // 
-            // label10
-            // 
-            this.label10.AutoSize = true;
-            this.label10.Font = new System.Drawing.Font("Microsoft Sans Serif", 8.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label10.Location = new System.Drawing.Point(28, 29);
-            this.label10.Name = "label10";
-            this.label10.Size = new System.Drawing.Size(36, 13);
-            this.label10.TabIndex = 2;
-            this.label10.Text = "Blue:";
+            this.lblBeed.AutoSize = true;
+            this.lblBeed.Font = new System.Drawing.Font("Microsoft Sans Serif", 9.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.lblBeed.Location = new System.Drawing.Point(113, 59);
+            this.lblBeed.Name = "lblBeed";
+            this.lblBeed.Size = new System.Drawing.Size(15, 16);
+            this.lblBeed.TabIndex = 6;
+            this.lblBeed.Text = "0";
             // 
             // Dashboard
             // 
@@ -381,16 +502,26 @@
         private System.Windows.Forms.GroupBox groupBox1;
         private System.Windows.Forms.GroupBox groupBox2;
         private System.Windows.Forms.GroupBox groupBox3;
-        private System.Windows.Forms.Label label3;
+        private System.Windows.Forms.Label lblMale;
         private System.Windows.Forms.GroupBox groupBox4;
-        private System.Windows.Forms.Label label4;
+        private System.Windows.Forms.Label lblBasketball;
         private System.Windows.Forms.GroupBox groupBox5;
-        private System.Windows.Forms.Label label5;
+        private System.Windows.Forms.Label lblBlueCount;
         private System.Windows.Forms.GroupBox groupBox6;
+        private System.Windows.Forms.Label lblFemale;
+        private System.Windows.Forms.Label lblFemaleCount;
+        private System.Windows.Forms.Label lblMaleCount;
+        private System.Windows.Forms.Label lblBlue;
+        private System.Windows.Forms.Label lblPink;
+        private System.Windows.Forms.Label lblRed;
+        private System.Windows.Forms.Label lblPinkCount;
+        private System.Windows.Forms.Label lblRedCount;
+        private System.Windows.Forms.Label label4;
+        private System.Windows.Forms.Label label3;
+        private System.Windows.Forms.Label lblVolleyball;
         private System.Windows.Forms.Label label6;
-        private System.Windows.Forms.Label label7;
-        private System.Windows.Forms.Label label9;
-        private System.Windows.Forms.Label label8;
-        private System.Windows.Forms.Label label10;
+        private System.Windows.Forms.Label label5;
+        private System.Windows.Forms.Label lblBeed;
+        private System.Windows.Forms.Label lblBsit;
     }
 }
