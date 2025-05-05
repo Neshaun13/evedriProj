@@ -55,5 +55,23 @@ namespace evedri
                 MessageBox.Show("Invalid USERNAME or PASSWORD. Please try again!", "", MessageBoxButtons.RetryCancel, MessageBoxIcon.Exclamation);
             }
         }
+
+        private void checkBox1_CheckedChanged(object sender, EventArgs e)
+        {
+            if (checkBox1.Checked)
+            {
+                txtPASSWORD.PasswordChar = '\0';
+            }
+            else
+            {
+                txtPASSWORD.PasswordChar = '*';
+            }
+        }
+
+        private void btnCancel_Click(object sender, EventArgs e)
+        {
+            txtUSERNAME.Clear();
+            txtPASSWORD.Clear();
+        }
     }
 }

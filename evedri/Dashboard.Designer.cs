@@ -47,22 +47,22 @@
             this.lblFemale = new System.Windows.Forms.Label();
             this.lblMale = new System.Windows.Forms.Label();
             this.groupBox4 = new System.Windows.Forms.GroupBox();
+            this.lblVolleyball = new System.Windows.Forms.Label();
+            this.label4 = new System.Windows.Forms.Label();
+            this.label3 = new System.Windows.Forms.Label();
             this.lblBasketball = new System.Windows.Forms.Label();
             this.groupBox5 = new System.Windows.Forms.GroupBox();
+            this.lblPinkCount = new System.Windows.Forms.Label();
+            this.lblRedCount = new System.Windows.Forms.Label();
+            this.lblPink = new System.Windows.Forms.Label();
+            this.lblRed = new System.Windows.Forms.Label();
             this.lblBlue = new System.Windows.Forms.Label();
             this.lblBlueCount = new System.Windows.Forms.Label();
             this.groupBox6 = new System.Windows.Forms.GroupBox();
-            this.lblRed = new System.Windows.Forms.Label();
-            this.lblPink = new System.Windows.Forms.Label();
-            this.lblRedCount = new System.Windows.Forms.Label();
-            this.lblPinkCount = new System.Windows.Forms.Label();
-            this.label3 = new System.Windows.Forms.Label();
-            this.label4 = new System.Windows.Forms.Label();
-            this.lblVolleyball = new System.Windows.Forms.Label();
-            this.label5 = new System.Windows.Forms.Label();
-            this.label6 = new System.Windows.Forms.Label();
-            this.lblBsit = new System.Windows.Forms.Label();
             this.lblBeed = new System.Windows.Forms.Label();
+            this.label6 = new System.Windows.Forms.Label();
+            this.label5 = new System.Windows.Forms.Label();
+            this.lblBsit = new System.Windows.Forms.Label();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox1)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox2)).BeginInit();
             this.groupBox1.SuspendLayout();
@@ -84,6 +84,7 @@
             // 
             // pictureBox2
             // 
+            this.pictureBox2.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
             this.pictureBox2.Location = new System.Drawing.Point(54, 21);
             this.pictureBox2.Name = "pictureBox2";
             this.pictureBox2.Size = new System.Drawing.Size(156, 112);
@@ -148,7 +149,7 @@
             this.label2.BackColor = System.Drawing.Color.Black;
             this.label2.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.label2.ForeColor = System.Drawing.SystemColors.ControlLightLight;
-            this.label2.Location = new System.Drawing.Point(40, 168);
+            this.label2.Location = new System.Drawing.Point(40, 154);
             this.label2.Name = "label2";
             this.label2.Size = new System.Drawing.Size(191, 20);
             this.label2.TabIndex = 7;
@@ -156,7 +157,7 @@
             // 
             // dateTimePicker1
             // 
-            this.dateTimePicker1.Location = new System.Drawing.Point(36, 207);
+            this.dateTimePicker1.Location = new System.Drawing.Point(35, 192);
             this.dateTimePicker1.Name = "dateTimePicker1";
             this.dateTimePicker1.Size = new System.Drawing.Size(200, 20);
             this.dateTimePicker1.TabIndex = 8;
@@ -185,7 +186,7 @@
             // groupBox1
             // 
             this.groupBox1.Controls.Add(this.lblActive);
-            this.groupBox1.Font = new System.Drawing.Font("Microsoft Sans Serif", 8.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.groupBox1.Font = new System.Drawing.Font("Microsoft Sans Serif", 9.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.groupBox1.Location = new System.Drawing.Point(309, 88);
             this.groupBox1.Name = "groupBox1";
             this.groupBox1.Size = new System.Drawing.Size(200, 100);
@@ -196,7 +197,7 @@
             // groupBox2
             // 
             this.groupBox2.Controls.Add(this.lblInactive);
-            this.groupBox2.Font = new System.Drawing.Font("Microsoft Sans Serif", 8.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.groupBox2.Font = new System.Drawing.Font("Microsoft Sans Serif", 9.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.groupBox2.Location = new System.Drawing.Point(557, 88);
             this.groupBox2.Name = "groupBox2";
             this.groupBox2.Size = new System.Drawing.Size(200, 100);
@@ -210,7 +211,7 @@
             this.groupBox3.Controls.Add(this.lblMaleCount);
             this.groupBox3.Controls.Add(this.lblFemale);
             this.groupBox3.Controls.Add(this.lblMale);
-            this.groupBox3.Font = new System.Drawing.Font("Microsoft Sans Serif", 8.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.groupBox3.Font = new System.Drawing.Font("Microsoft Sans Serif", 9.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.groupBox3.Location = new System.Drawing.Point(309, 223);
             this.groupBox3.Name = "groupBox3";
             this.groupBox3.Size = new System.Drawing.Size(200, 100);
@@ -264,13 +265,43 @@
             this.groupBox4.Controls.Add(this.label4);
             this.groupBox4.Controls.Add(this.label3);
             this.groupBox4.Controls.Add(this.lblBasketball);
-            this.groupBox4.Font = new System.Drawing.Font("Microsoft Sans Serif", 8.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.groupBox4.Font = new System.Drawing.Font("Microsoft Sans Serif", 9.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.groupBox4.Location = new System.Drawing.Point(309, 369);
             this.groupBox4.Name = "groupBox4";
             this.groupBox4.Size = new System.Drawing.Size(200, 100);
             this.groupBox4.TabIndex = 12;
             this.groupBox4.TabStop = false;
             this.groupBox4.Text = "Hobbies";
+            // 
+            // lblVolleyball
+            // 
+            this.lblVolleyball.AutoSize = true;
+            this.lblVolleyball.Font = new System.Drawing.Font("Microsoft Sans Serif", 9.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.lblVolleyball.Location = new System.Drawing.Point(120, 60);
+            this.lblVolleyball.Name = "lblVolleyball";
+            this.lblVolleyball.Size = new System.Drawing.Size(15, 16);
+            this.lblVolleyball.TabIndex = 5;
+            this.lblVolleyball.Text = "0";
+            // 
+            // label4
+            // 
+            this.label4.AutoSize = true;
+            this.label4.Font = new System.Drawing.Font("Microsoft Sans Serif", 8.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.label4.Location = new System.Drawing.Point(20, 62);
+            this.label4.Name = "label4";
+            this.label4.Size = new System.Drawing.Size(65, 13);
+            this.label4.TabIndex = 4;
+            this.label4.Text = "Volleyball:";
+            // 
+            // label3
+            // 
+            this.label3.AutoSize = true;
+            this.label3.Font = new System.Drawing.Font("Microsoft Sans Serif", 8.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.label3.Location = new System.Drawing.Point(20, 37);
+            this.label3.Name = "label3";
+            this.label3.Size = new System.Drawing.Size(70, 13);
+            this.label3.TabIndex = 3;
+            this.label3.Text = "Basketball:";
             // 
             // lblBasketball
             // 
@@ -290,13 +321,53 @@
             this.groupBox5.Controls.Add(this.lblRed);
             this.groupBox5.Controls.Add(this.lblBlue);
             this.groupBox5.Controls.Add(this.lblBlueCount);
-            this.groupBox5.Font = new System.Drawing.Font("Microsoft Sans Serif", 8.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.groupBox5.Font = new System.Drawing.Font("Microsoft Sans Serif", 9.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.groupBox5.Location = new System.Drawing.Point(557, 223);
             this.groupBox5.Name = "groupBox5";
             this.groupBox5.Size = new System.Drawing.Size(200, 100);
             this.groupBox5.TabIndex = 12;
             this.groupBox5.TabStop = false;
             this.groupBox5.Text = " Color";
+            // 
+            // lblPinkCount
+            // 
+            this.lblPinkCount.AutoSize = true;
+            this.lblPinkCount.Font = new System.Drawing.Font("Microsoft Sans Serif", 9.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.lblPinkCount.Location = new System.Drawing.Point(113, 71);
+            this.lblPinkCount.Name = "lblPinkCount";
+            this.lblPinkCount.Size = new System.Drawing.Size(15, 16);
+            this.lblPinkCount.TabIndex = 6;
+            this.lblPinkCount.Text = "0";
+            // 
+            // lblRedCount
+            // 
+            this.lblRedCount.AutoSize = true;
+            this.lblRedCount.Font = new System.Drawing.Font("Microsoft Sans Serif", 9.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.lblRedCount.Location = new System.Drawing.Point(113, 49);
+            this.lblRedCount.Name = "lblRedCount";
+            this.lblRedCount.Size = new System.Drawing.Size(15, 16);
+            this.lblRedCount.TabIndex = 5;
+            this.lblRedCount.Text = "0";
+            // 
+            // lblPink
+            // 
+            this.lblPink.AutoSize = true;
+            this.lblPink.Font = new System.Drawing.Font("Microsoft Sans Serif", 8.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.lblPink.Location = new System.Drawing.Point(39, 73);
+            this.lblPink.Name = "lblPink";
+            this.lblPink.Size = new System.Drawing.Size(36, 13);
+            this.lblPink.TabIndex = 4;
+            this.lblPink.Text = "Pink:";
+            // 
+            // lblRed
+            // 
+            this.lblRed.AutoSize = true;
+            this.lblRed.Font = new System.Drawing.Font("Microsoft Sans Serif", 8.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.lblRed.Location = new System.Drawing.Point(39, 51);
+            this.lblRed.Name = "lblRed";
+            this.lblRed.Size = new System.Drawing.Size(34, 13);
+            this.lblRed.TabIndex = 3;
+            this.lblRed.Text = "Red:";
             // 
             // lblBlue
             // 
@@ -325,7 +396,7 @@
             this.groupBox6.Controls.Add(this.label6);
             this.groupBox6.Controls.Add(this.label5);
             this.groupBox6.Controls.Add(this.lblBsit);
-            this.groupBox6.Font = new System.Drawing.Font("Microsoft Sans Serif", 8.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.groupBox6.Font = new System.Drawing.Font("Microsoft Sans Serif", 9.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.groupBox6.Location = new System.Drawing.Point(557, 369);
             this.groupBox6.Name = "groupBox6";
             this.groupBox6.Size = new System.Drawing.Size(200, 100);
@@ -333,85 +404,15 @@
             this.groupBox6.TabStop = false;
             this.groupBox6.Text = "Course";
             // 
-            // lblRed
+            // lblBeed
             // 
-            this.lblRed.AutoSize = true;
-            this.lblRed.Font = new System.Drawing.Font("Microsoft Sans Serif", 8.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.lblRed.Location = new System.Drawing.Point(39, 51);
-            this.lblRed.Name = "lblRed";
-            this.lblRed.Size = new System.Drawing.Size(34, 13);
-            this.lblRed.TabIndex = 3;
-            this.lblRed.Text = "Red:";
-            // 
-            // lblPink
-            // 
-            this.lblPink.AutoSize = true;
-            this.lblPink.Font = new System.Drawing.Font("Microsoft Sans Serif", 8.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.lblPink.Location = new System.Drawing.Point(39, 73);
-            this.lblPink.Name = "lblPink";
-            this.lblPink.Size = new System.Drawing.Size(36, 13);
-            this.lblPink.TabIndex = 4;
-            this.lblPink.Text = "Pink:";
-            // 
-            // lblRedCount
-            // 
-            this.lblRedCount.AutoSize = true;
-            this.lblRedCount.Font = new System.Drawing.Font("Microsoft Sans Serif", 9.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.lblRedCount.Location = new System.Drawing.Point(113, 49);
-            this.lblRedCount.Name = "lblRedCount";
-            this.lblRedCount.Size = new System.Drawing.Size(15, 16);
-            this.lblRedCount.TabIndex = 5;
-            this.lblRedCount.Text = "0";
-            // 
-            // lblPinkCount
-            // 
-            this.lblPinkCount.AutoSize = true;
-            this.lblPinkCount.Font = new System.Drawing.Font("Microsoft Sans Serif", 9.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.lblPinkCount.Location = new System.Drawing.Point(113, 71);
-            this.lblPinkCount.Name = "lblPinkCount";
-            this.lblPinkCount.Size = new System.Drawing.Size(15, 16);
-            this.lblPinkCount.TabIndex = 6;
-            this.lblPinkCount.Text = "0";
-            // 
-            // label3
-            // 
-            this.label3.AutoSize = true;
-            this.label3.Font = new System.Drawing.Font("Microsoft Sans Serif", 8.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label3.Location = new System.Drawing.Point(20, 37);
-            this.label3.Name = "label3";
-            this.label3.Size = new System.Drawing.Size(70, 13);
-            this.label3.TabIndex = 3;
-            this.label3.Text = "Basketball:";
-            // 
-            // label4
-            // 
-            this.label4.AutoSize = true;
-            this.label4.Font = new System.Drawing.Font("Microsoft Sans Serif", 8.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label4.Location = new System.Drawing.Point(20, 62);
-            this.label4.Name = "label4";
-            this.label4.Size = new System.Drawing.Size(65, 13);
-            this.label4.TabIndex = 4;
-            this.label4.Text = "Volleyball:";
-            // 
-            // lblVolleyball
-            // 
-            this.lblVolleyball.AutoSize = true;
-            this.lblVolleyball.Font = new System.Drawing.Font("Microsoft Sans Serif", 9.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.lblVolleyball.Location = new System.Drawing.Point(120, 60);
-            this.lblVolleyball.Name = "lblVolleyball";
-            this.lblVolleyball.Size = new System.Drawing.Size(15, 16);
-            this.lblVolleyball.TabIndex = 5;
-            this.lblVolleyball.Text = "0";
-            // 
-            // label5
-            // 
-            this.label5.AutoSize = true;
-            this.label5.Font = new System.Drawing.Font("Microsoft Sans Serif", 8.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label5.Location = new System.Drawing.Point(39, 41);
-            this.label5.Name = "label5";
-            this.label5.Size = new System.Drawing.Size(39, 13);
-            this.label5.TabIndex = 4;
-            this.label5.Text = "BSIT:";
+            this.lblBeed.AutoSize = true;
+            this.lblBeed.Font = new System.Drawing.Font("Microsoft Sans Serif", 9.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.lblBeed.Location = new System.Drawing.Point(113, 59);
+            this.lblBeed.Name = "lblBeed";
+            this.lblBeed.Size = new System.Drawing.Size(15, 16);
+            this.lblBeed.TabIndex = 6;
+            this.lblBeed.Text = "0";
             // 
             // label6
             // 
@@ -423,6 +424,16 @@
             this.label6.TabIndex = 5;
             this.label6.Text = "BEED:";
             // 
+            // label5
+            // 
+            this.label5.AutoSize = true;
+            this.label5.Font = new System.Drawing.Font("Microsoft Sans Serif", 8.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.label5.Location = new System.Drawing.Point(39, 41);
+            this.label5.Name = "label5";
+            this.label5.Size = new System.Drawing.Size(39, 13);
+            this.label5.TabIndex = 4;
+            this.label5.Text = "BSIT:";
+            // 
             // lblBsit
             // 
             this.lblBsit.AutoSize = true;
@@ -432,16 +443,6 @@
             this.lblBsit.Size = new System.Drawing.Size(15, 16);
             this.lblBsit.TabIndex = 1;
             this.lblBsit.Text = "0";
-            // 
-            // lblBeed
-            // 
-            this.lblBeed.AutoSize = true;
-            this.lblBeed.Font = new System.Drawing.Font("Microsoft Sans Serif", 9.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.lblBeed.Location = new System.Drawing.Point(113, 59);
-            this.lblBeed.Name = "lblBeed";
-            this.lblBeed.Size = new System.Drawing.Size(15, 16);
-            this.lblBeed.TabIndex = 6;
-            this.lblBeed.Text = "0";
             // 
             // Dashboard
             // 
